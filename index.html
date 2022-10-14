@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <hr>
+
+    <h2>Form</h2>
+    <ul>
+        <li>Tag: < form > < /form ></li>
+        <li>Attr: action / URL</li>
+        <li>Attr: method / GET/POST</li>
+    </ul>
+    <h2>Input - Text</h2>
+    <ul>
+        <li>Tag: < input/ > </li>
+        <li>Type: text </li>
+        <li>Attr: name / value[String]</li>
+        <li>Attr: placeholder / value[String]</li>
+        <li>Attr: maxlenght / value[Number]</li>
+    </ul>
+    <form action="#" method="GET">
+        <input
+            type="text"
+            name="login" 
+            placeholder="Login" 
+            maxlenght="20"
+        >
+    </form>
+    <h2>Input - Password</h2>
+    <ul>
+        <li>Tag: < input/ > </li>
+        <li>Type: password </li>
+        <li>Attr: name / value[String]</li>
+        <li>Attr: placeholder / value[String]</li>
+    </ul>
+    <form action="#" method="GET">
+        <input
+            type="password"
+            name="login"
+            placeholder="Password" 
+        >
+    </form>
+    <h2>Textarea</h2>
+    <ul>
+        <li>Tag: < textarea > </ textarea > </li>
+        <li>Type: password </li>
+        <li>Attr: name / value[String]</li>
+        <li>Attr: placeholder / value[String]</li>
+    </ul>
+    <form action="#" method="GET">
+        <textarea name="message" placeholder="Message" ></textarea>
+    </form>
+    <h2>Input - Radio</h2>
+    <ul>
+        <li>Tag: < input /> </li>
+        <li>Attr: type: radio </li>
+        <li>Attr: name / value[String] / grouping[rep.]</li>
+        <li>Attr: value / value[Any]</li>
+        <li>Attr: checked / value["checked"]</li>
+    </ul>
+    <form action="#" method="GET">
+        Jazz
+        <input type="radio" name="music" value="1">
+        Rap
+        <input type="radio" name="music" value="2">
+        Metal
+        <input type="radio" name="music" value="3" checked="checked">
+    </form>
+    <h2>Checkedbox</h2>
+    <ul>
+        <li>Tag: < input /> </li>
+        <li>Attr: type: radio </li>
+        <li>Attr: name / value[String] / grouping[rep.]</li>
+        <li>Attr: value / value[Any]</li>
+        <li>Attr: checked / value["checked"]</li>
+    </ul>
+    <form action="#" method="GET">
+        <input type="checkbox" name="boolean" checked="checked" value="1">
+        <input type="checkbox" name="boolean" checked="checked" value="2">
+        <input type="checkbox" name="boolean" checked="checked" value="3">
+    </form>
+</body>
+</html>
